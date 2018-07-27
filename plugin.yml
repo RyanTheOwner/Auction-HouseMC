@@ -1,0 +1,9 @@
+name: MineUChat
+author: RyanTheDev
+api: 3.0.0
+version: 1.0.0-BETA
+main: Test\Main
+description: Enable/disable chat
+commands:
+  chat:
+    description: enable/disable chat
