@@ -1,7 +1,7 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/RyanTheOwner/ChatEnabler
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/RyanTheOwner/Auction-HouseMC
 branches:
 - master
 projects: 
- MineUChat:
+ AuctionHouse:
   path: ""
 ...
