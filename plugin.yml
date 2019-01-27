@@ -1,0 +1,9 @@
+name: AuctionHouse
+api: 3.0.0
+main: RyanTheOwner\AuctionHouse
+version: 1.0
+author: RyanTheOwner
+commands:
+  ah:
+    description: ""
+    aliases: ["auction", "auctionhouse"]
