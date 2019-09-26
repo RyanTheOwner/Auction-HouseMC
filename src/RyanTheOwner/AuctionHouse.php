@@ -203,7 +203,7 @@ class AuctionHouse extends PluginBase {
     /**
     * Auction commands.
     */
-    public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) {
+    public function onCommand(CommandSender $sender, Command $cmd, $label, array $args): bool {
         if (strtolower($cmd->getName()) === 'ah') {
             if (count($args) === 0) {
                 self::sendHelp($sender);
@@ -273,7 +273,8 @@ class AuctionHouse extends PluginBase {
                         } else {
                             $sender->sendMessage(TF::AQUA.'/ah info '.TF::GRAY.'<auctionID>');
                         }
-                        break;
+                        return true;
+                      return false;
                 }
             }
         }
